@@ -85,6 +85,13 @@ Execute the script via your local terminal command interface:
 streamlit run app.py
 ```
 *(Replace `app.py` with the exact filename where your code is saved).*
+---
 
+## 🖼️ Interface Previews
+
+![Telemetry Dashboard Core Preview](images/dashboard_preview.png)
+*Figure 1: Modular telemetry dashboard stream showing node metrics, diagnostic status tracking, timeline chart plots, and live disk log terminals.*
+
+---
 ### 3. File Outputs
 The script generates a local file named `telemetry_log.csv` in the execution root directory. You can clean this file manually or click the **🗑️ Clear Log & Reset History** button on the UI sidebar to wipe current tables.
