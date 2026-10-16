@@ -4,6 +4,13 @@ An advanced, real-time **Streamlit telemetry dashboard** designed to monitor, si
 
 ---
 
+## 📁 Repository Structure
+```text
+├── mock.py             # Main entry point & Dashboard Grid Layout
+├── simulation.py      # Mathematical wave calculations & safe boundaries
+├── storage.py         # CSV file I/O & chronological memory limits
+└── telemetry_log.csv  # Local transactional runtime log (auto-generated)
+```
 ## 🏗️ System Logic Flow Architecture
 
 The following sequence flowchart illustrates how the system processes states, manages the infinite loop criteria, applies slider parameters, and commits transactional records to storage.
