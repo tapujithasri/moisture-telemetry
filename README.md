@@ -12,7 +12,10 @@ An advanced, real-time **Streamlit telemetry dashboard** designed to monitor, si
 ├── telemetry_log.csv  # Local transactional runtime log (auto-generated)
 └── images/
     └── dashboard_preview.png  # Live telemetry interface screenshot
-```## 🏗️ System Logic Flow Architecture
+
+```
+
+## 🏗️ System Logic Flow Architecture
 
 The following sequence flowchart illustrates how the system processes states, manages the infinite loop criteria, applies slider parameters, and commits transactional records to storage.
 
